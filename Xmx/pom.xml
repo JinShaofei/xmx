@@ -22,5 +22,6 @@
     <module>Xmx-dao</module>
     <module>Xmx-common</module>
     <module>Xmx-domain</module>
+    <module>Xml-front</module>
   </modules>
 </project>
