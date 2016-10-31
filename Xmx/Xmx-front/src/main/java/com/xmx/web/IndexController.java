@@ -2,6 +2,9 @@ package com.xmx.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.xmx.utils.MVUtils;
 
 /**
  * index controller
@@ -19,10 +22,12 @@ public class IndexController {
 	 * @return
 	 */
 	@RequestMapping("/index.htm")
-	public String index(){
+	public ModelAndView index(){
 		
 		
-		return "index/index";
+		String viewName = "index/index";
+		
+		return MVUtils.instance(viewName);
 		
 	}
 			

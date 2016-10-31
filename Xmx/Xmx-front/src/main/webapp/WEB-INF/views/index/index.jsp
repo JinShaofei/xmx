@@ -17,7 +17,7 @@
 	<div id="wrapper">
 		<div id="header_index">
 			<h1>
-				<a href="http://www.wandaguoji.net" title="w3school 在线教程">w3school
+				<a href="#" title="w3school 在线教程">w3school
 					在线教程</a>
 			</h1>
 		</div>
